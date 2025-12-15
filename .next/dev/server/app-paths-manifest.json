@@ -1,4 +1,5 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/about/partner/page": "app/about/partner/page.js",
   "/about/slcr/page": "app/about/slcr/page.js",
   "/activities/page": "app/activities/page.js",
