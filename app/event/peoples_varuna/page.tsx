@@ -32,7 +32,7 @@ export default function PeoplesVarunaPage() {
               <Image
                 src="/People's_Varuna.png"
                 alt="People's Varuna"
-                width={400}
+                width={600}
                 height={300}
                 className="rounded-xl shadow-lg"
               />

@@ -83,7 +83,7 @@ export default function HomePage() {
         {/* Background Image - River */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/img/ganga-ghat-haridwar2-attr-hero.jpg"
+            src="/img/main_page_gif_old.gif"
             alt="Ganga River - Clean Rivers Initiative"
             fill
             className="object-cover"
@@ -301,7 +301,7 @@ export default function HomePage() {
                   <div className="h-40 sm:h-56 overflow-hidden relative flex-shrink-0">
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300 z-10"></div>
                     <Image
-                      src="/persons/Pramod_Sir.jpeg"
+                      src="/persons/Pramod_Sir.jpg"
                       alt="Prof. Pramod Soni"
                       width={250}
                       height={320}

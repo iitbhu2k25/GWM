@@ -1,78 +1,218 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 
-// Gallery categories with images
-const galleryCategories = [
+// Gallery sections with their images from folders
+const gallerySections = [
   {
+    id: 'ganga',
     title: 'Ganga at Varanasi',
-    image: '/gallery/pexels-narin-chauhan-295714705-16542959.jpg',
-    slug: 'drone-views'
+    description: 'The sacred Ganga River flowing through Varanasi',
+    images: [
+      '/gallery/ganga/gangavns2.jpg',
+      '/gallery/ganga/gangavns3.jpg',
+      '/gallery/ganga/gangavns4.jpg',
+    ],
+    coverImage: '/gallery/gangavns.jpg',
   },
   {
+    id: 'varuna',
+    title: 'Varuna at Varanasi',
+    description: 'The Varuna River - a tributary of Ganga',
+    images: [
+      '/gallery/varuna/varuna1.png',
+      '/gallery/varuna/varuna3.png',
+      '/gallery/varuna/varuna5.png',
+      '/gallery/varuna/varuna7.png',
+      '/gallery/varuna/Varuna_riverfront.jpeg',
+      '/gallery/varuna/Picture16.jpeg',
+      '/gallery/varuna/Isarwar.jpg',
+    ],
+    coverImage: '/gallery/varuna/varuna3.png',
+  },
+  {
+    id: 'assi',
+    title: 'Assi at Varanasi',
+    description: 'The Assi River - a tributary of Ganga',
+    images: [
+      '/gallery/Assi/assi1.png',
+      '/gallery/Assi/assi2.png',
+      '/gallery/Assi/assi3.png',
+      '/gallery/Assi/assi4.png',
+    ],
+    coverImage: '/gallery/Assi/assi3.png',
+  },
+  {
+    id: 'site-visits',
     title: 'Site Visits',
-    image: '/gallery/slcr14.jpg',
-    slug: 'site-visits'
+    description: 'Field surveys and site investigations',
+    images: [
+      '/gallery/site_visits/image2.jpg',
+      '/gallery/site_visits/visit1.avif',
+      '/gallery/site_visits/visit2.avif',
+      '/gallery/site_visits/BLW_STP.jpeg',
+      '/gallery/site_visits/VARUNAPUL_NADESAR.jpeg',
+      '/gallery/site_visits/new.avif',
+    ],
+    coverImage: '/gallery/site_visits/image2.jpg',
   },
   {
-    title: 'Field Work',
-    image: '/gallery/slcr3img.JPG',
-    slug: 'field-work'
+    id: 'events',
+    title: 'Events',
+    description: 'Workshops, conferences and activities',
+    images: [
+      '/gallery/Events/pic2.jpg',
+      '/gallery/Events/pic1.jpg',
+      '/gallery/Events/pic3.png',
+      '/gallery/Events/pic4.jpg',
+      '/gallery/Events/pic5.jpg',
+      '/gallery/Events/pic6.jpg',
+    ],
+    coverImage: '/gallery/Events/pic2.jpg',
   },
   {
-    title: 'Events at SLCR',
-    image: '/gallery/slcr10.jpg',
-    slug: 'events'
+    id: 'visitors',
+    title: 'Visitors',
+    description: 'Distinguished visitors and collaborators',
+    images: [
+      '/gallery/visitors/Mr_Dheeraj_Joshi_Director_NMCG.png',
+      '/gallery/visitors/pic1.png',
+      '/gallery/visitors/ISRO_MEMBERS.png',
+      
+      
+    ],
+    coverImage: '/gallery/visitors/Mr_Dheeraj_Joshi_Director_NMCG.png',
   },
   {
-    title: 'Visitors at SLCR',
-    image: '/gallery/partnership2.jpg',
-    slug: 'visitors'
-  },
-  {
-    title: 'SLCR Outreach',
-    image: '/gallery/slcr18.jpg',
-    slug: 'outreach'
+    id: 'field_work',
+    title: 'Field work',
+    description: 'Data sampling and collection',
+    images: [
+      '/gallery/field_work/Picture1.jpg',
+      '/gallery/field_work/Picture3.jpeg',
+      '/gallery/field_work/Picture5.jpg',
+      '/gallery/field_work/Picture7.jpeg',
+      '/gallery/field_work/slcr14.jpg',
+      '/gallery/field_work/slcr10.jpg',
+      '/gallery/field_work/slcr18.jpg',
+      '/gallery/field_work/new.avif',
+    ],
+    coverImage: '/gallery/field_work/new.avif',
   },
 ];
 
+// Main viewer component for active section
+function MainViewer({
+  section
+}: {
+  section: typeof gallerySections[0];
+}) {
+  const [isPaused, setIsPaused] = useState(false);
+  const [localIndex, setLocalIndex] = useState(0);
+
+  useEffect(() => {
+    setLocalIndex(0);
+  }, [section.id]);
+
+  useEffect(() => {
+    if (isPaused) return;
+
+    const interval = setInterval(() => {
+      setLocalIndex((prev) => (prev + 1) % section.images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [isPaused, section.images.length, section.id]);
+
+  return (
+    <div
+      className="bg-white rounded-2xl shadow-xl overflow-hidden"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
+      {/* Header */}
+      <div className="bg-gradient-to-r from-blue-400 to-blue-400 px-6 py-4 flex items-center justify-between">
+        <div>
+          <h3 className="text-white font-bold text-xl">{section.title}</h3>
+          <p className="text-white/70 text-sm">{section.description}</p>
+        </div>
+        <div className="text-yellow-400 text-sm font-medium">
+          {isPaused && <span className="ml-2"> Paused</span>}
+        </div>
+      </div>
+
+      {/* Main Image */}
+      <div className="relative aspect-[16/9] bg-gray-100">
+        <Image
+          src={section.images[localIndex]}
+          alt={`${section.title} - Image ${localIndex + 1}`}
+          fill
+          className="object-contain"
+          quality={100}
+        />
+      </div>
+
+      {/* Thumbnails Row */}
+      <div className="p-4 bg-gray-50 border-t">
+        <div className="flex gap-2 overflow-x-auto pb-2">
+          {section.images.map((img, idx) => (
+            <button
+              key={idx}
+              onClick={() => setLocalIndex(idx)}
+              className={`flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border-2 transition-all ${idx === localIndex
+                  ? 'border-primary ring-2 ring-primary/30'
+                  : 'border-gray-200 hover:border-gray-400'
+                }`}
+            >
+              <Image
+                src={img}
+                alt={`Thumbnail ${idx + 1}`}
+                width={80}
+                height={56}
+                className="w-full h-full object-cover"
+              />
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function MediaGalleryPage() {
+  const [activeSection, setActiveSection] = useState<string>(gallerySections[0].id);
+
+  const activeSectionData = gallerySections.find(s => s.id === activeSection) || gallerySections[0];
+
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Banner */}
-      <section className="relative py-10 sm:py-14 bg-gradient-to-r from-primary via-primary-light to-secondary">
-        <div className="max-w-7xl mx-auto px-4 text-center text-white">
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 uppercase tracking-wide"
-          >
-            The SLCR Gallery: An Initiative of
-          </motion.h1>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 uppercase tracking-wide"
-          >
-            Smart Laboratory on Clean Rivers (SLCR), IIT BHU Varanasi
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="text-sm sm:text-base text-white/80 italic"
-          >
-            A gallery for public awareness, conservation and restoration of the river
-          </motion.p>
-        </div>
-      </section>
-
-      {/* Main Content - Written Content with Image Float */}
+      
+      {/* Main Content with Integrated Header */}
       <section className="py-10 sm:py-16 px-3 sm:px-4 bg-white">
         <div className="max-w-5xl mx-auto">
+          
+          {/* --- INTEGRATED HEADER (TEXT STYLE) --- */}
+          <div className="text-center mb-12">
+            <motion.h1 
+               initial={{ opacity: 0, y: -20 }}
+               animate={{ opacity: 1, y: 0 }}
+               className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#003366] uppercase leading-tight mb-3"
+            >
+              The SLCR Gallery: An Initiative of <br className="hidden md:block"/>
+              Smart Laboratory on Clean Rivers (SLCR), IIT BHU Varanasi
+            </motion.h1>
+            <motion.p 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               transition={{ delay: 0.2 }}
+               className="text-lg md:text-xl text-gray-500 italic font-medium"
+            >
+              A gallery for public awareness, conservation and restoration of the river
+            </motion.p>
+          </div>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -81,13 +221,14 @@ export default function MediaGalleryPage() {
           >
             {/* Image floated to the right */}
             <div className="float-right ml-6 mb-4 w-full sm:w-[350px] md:w-[400px] not-prose">
-              <div className="rounded-lg overflow-hidden shadow-lg">
+              <div className="rounded-lg overflow-hidden shadow-lg border border-gray-100">
                 <Image
-                  src="/gallery/gangavns4.jpg"
+                  src="/gallery/main_page_gif.gif"
                   alt="A view of the Ganga River in Varanasi"
                   width={400}
                   height={500}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-contain"
+                  unoptimized
                 />
               </div>
               <p className="text-center text-sm text-gray-500 mt-2 italic">
@@ -153,55 +294,66 @@ export default function MediaGalleryPage() {
         </div>
       </section>
 
-      {/* Gallery Categories - Below Content */}
-      <section className="py-10 sm:py-16 px-3 sm:px-4 bg-gray-50">
+      {/* Interactive Gallery Section */}
+      <section className="py-10 sm:py-16 px-3 sm:px-4 bg-gray-100">
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="text-center mb-10"
+            className="text-center mb-8"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-3">SLCR Gallery</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Explore our collection of photographs documenting the various activities and initiatives
-              under the Smart Laboratory on Clean Rivers program.
+            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-2">SLCR Gallery</h2>
+            <p className="text-gray-600">
+              Click on a category to view images. Hover to pause.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-            {galleryCategories.map((category, index) => (
-              <motion.div
-                key={category.slug}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6 + index * 0.1 }}
-              >
-                <Link
-                  href={`/gallery/${category.slug}`}
-                  className="block relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group"
+          {/* Category Selection - Single Row Above Viewer */}
+          <div className="mb-6">
+            <div className="flex flex-wrap justify-center gap-3">
+              {gallerySections.map((section, index) => (
+                <motion.button
+                  key={section.id}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.05 * index }}
+                  onClick={() => setActiveSection(section.id)}
+                  className={`relative rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 ${activeSection === section.id
+                      ? 'ring-3 ring-primary shadow-xl scale-105'
+                      : 'hover:scale-102'
+                    }`}
                 >
-                  <div className="aspect-[4/3] relative">
+                  <div className="w-28 sm:w-32 h-20 sm:h-24 relative">
                     <Image
-                      src={category.image}
-                      alt={category.title}
+                      src={section.coverImage}
+                      alt={section.title}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="object-cover"
                     />
                     {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
                     {/* Title */}
-                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                      <h4 className="text-white font-semibold text-base sm:text-lg drop-shadow-lg">
-                        {category.title}
+                    <div className="absolute bottom-0 left-0 right-0 p-2">
+                      <h4 className="text-white font-semibold text-xs sm:text-sm drop-shadow-lg text-center leading-tight">
+                        {section.title}
                       </h4>
                     </div>
+
+                    {/* Active Indicator */}
+                    {activeSection === section.id && (
+                      <div className="absolute top-1 right-1 bg-primary text-white text-[10px] px-1.5 py-0.5 rounded font-bold">
+                        ●
+                      </div>
+                    )}
                   </div>
-                </Link>
-              </motion.div>
-            ))}
+                </motion.button>
+              ))}
+            </div>
           </div>
+
+          {/* Main Viewer */}
+          <MainViewer section={activeSectionData} />
         </div>
       </section>
     </div>

@@ -51,3 +51,4 @@ coverage/
 # Local testing
 playwright-report/
 test-results/
+public/img/main_page_gif.gif

@@ -18,13 +18,13 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.tsx [app-r
 
 __turbopack_context__.s([
     "default",
-    ()=>Project2
+    ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 ;
 ;
-function Project2() {
+const Project3 = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "bg-white text-gray-900",
         children: [
@@ -32,17 +32,17 @@ function Project2() {
                 className: "bg-blue-700 text-white py-12 text-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "text-5xl font-bold",
-                    children: "Fingerprint Analysis"
+                    children: "Hydrological Modelling of Varuna"
                 }, void 0, false, {
                     fileName: "[project]/app/projects/project2/page.tsx",
-                    lineNumber: 8,
+                    lineNumber: 10,
                     columnNumber: 9
-                }, this)
+                }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/projects/project2/page.tsx",
-                lineNumber: 7,
+                lineNumber: 9,
                 columnNumber: 7
-            }, this),
+            }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-12 px-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -53,28 +53,28 @@ function Project2() {
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project2/page.tsx",
-                            lineNumber: 14,
+                            lineNumber: 16,
                             columnNumber: 11
-                        }, this),
+                        }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-700 leading-relaxed",
-                            children: "This project focuses on managed aquifer recharge (MAR) to enhance base flow at recharge sites. Advanced geophysical techniques and mathematical modeling are used to identify optimal recharge sites and determine appropriate recharge rates."
+                            children: "Led by professor from the University of Copenhagen, it aims to create a detailed fingerprint library, enhance water quality monitoring, and propose effective remediation strategies."
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project2/page.tsx",
-                            lineNumber: 15,
+                            lineNumber: 17,
                             columnNumber: 11
-                        }, this)
+                        }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/projects/project2/page.tsx",
-                    lineNumber: 13,
+                    lineNumber: 15,
                     columnNumber: 9
-                }, this)
+                }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/projects/project2/page.tsx",
-                lineNumber: 12,
+                lineNumber: 14,
                 columnNumber: 7
-            }, this),
+            }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-12 px-6 bg-gray-100",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -85,40 +85,40 @@ function Project2() {
                             children: "Progress Report"
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project2/page.tsx",
-                            lineNumber: 27,
+                            lineNumber: 28,
                             columnNumber: 11
-                        }, this),
+                        }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex justify-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/P_2.0.jpg",
+                                src: "/P_3.0.jpg",
                                 alt: "Progress Report",
                                 width: 1000,
-                                height: 400,
-                                className: "rounded-lg shadow-lg object-contain"
+                                height: 200,
+                                className: "rounded-lg shadow-lg"
                             }, void 0, false, {
                                 fileName: "[project]/app/projects/project2/page.tsx",
-                                lineNumber: 31,
+                                lineNumber: 32,
                                 columnNumber: 13
-                            }, this)
+                            }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project2/page.tsx",
-                            lineNumber: 30,
+                            lineNumber: 31,
                             columnNumber: 11
-                        }, this)
+                        }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/projects/project2/page.tsx",
-                    lineNumber: 26,
+                    lineNumber: 27,
                     columnNumber: 9
-                }, this)
+                }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/projects/project2/page.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 7
-            }, this),
+            }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-12 px-6",
+                className: "bg-gray-100 py-12 px-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-5xl mx-auto",
                     children: [
@@ -127,59 +127,69 @@ function Project2() {
                             children: "Team"
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project2/page.tsx",
-                            lineNumber: 45,
+                            lineNumber: 46,
                             columnNumber: 11
-                        }, this),
+                        }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mb-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-2xl font-semibold text-blue-700 mb-3",
-                                    children: "Project Lead"
+                                    className: "text-2xl font-semibold text-blue-700 mb-3"
                                 }, void 0, false, {
                                     fileName: "[project]/app/projects/project2/page.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 50,
                                     columnNumber: 13
-                                }, this),
+                                }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                     className: "space-y-2",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        className: "text-lg text-gray-800 border-l-4 border-blue-500 pl-4",
-                                        children: "Dr. Shryansh Jain, IIT(BHU)"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/projects/project2/page.tsx",
-                                        lineNumber: 53,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            className: "text-lg text-gray-800 border-l-4 border-blue-500 pl-3",
+                                            children: "Prof. S.B. Dwivedi"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/projects/project2/page.tsx",
+                                            lineNumber: 54,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            className: "text-lg text-gray-800 border-l-4 border-blue-500 pl-3",
+                                            children: "Dr. Shishir Gaur"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/projects/project2/page.tsx",
+                                            lineNumber: 57,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/projects/project2/page.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 53,
                                     columnNumber: 13
-                                }, this)
+                                }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/projects/project2/page.tsx",
-                            lineNumber: 48,
+                            lineNumber: 49,
                             columnNumber: 11
-                        }, this)
+                        }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/projects/project2/page.tsx",
-                    lineNumber: 44,
+                    lineNumber: 45,
                     columnNumber: 9
-                }, this)
+                }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/projects/project2/page.tsx",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 7
-            }, this)
+            }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/app/projects/project2/page.tsx",
-        lineNumber: 5,
+        lineNumber: 7,
         columnNumber: 5
-    }, this);
-}
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = Project3;
 }),
 "[project]/app/projects/project2/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
 

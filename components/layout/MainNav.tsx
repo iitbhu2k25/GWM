@@ -23,7 +23,7 @@ const navItems: NavItem[] = [
         ],
     },
     { label: 'Activities', href: '/activities' },
-    { label: 'Project', href: '/projects' },
+    { label: 'Projects', href: '/projects' },
     {
         label: 'Event',
         href: '/event',

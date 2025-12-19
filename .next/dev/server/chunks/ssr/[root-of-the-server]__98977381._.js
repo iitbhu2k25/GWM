@@ -646,7 +646,7 @@ const navItems = [
         href: '/activities'
     },
     {
-        label: 'Project',
+        label: 'Projects',
         href: '/projects'
     },
     {

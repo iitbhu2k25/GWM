@@ -80,7 +80,7 @@ function DSS() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-700 leading-relaxed",
-                            children: "For water management, we analyze basin water dynamics through hydrological models, scenario generation, forecasting, and data analytics. Our goal is to integrate groundwater and hydrological models to create a comprehensive river management plan."
+                            children: "This project addresses the critical need for a comprehensive Decision Support System (DSS) to manage water resources effectively. The DSS integrates sophisticated models and simulations to support sustainable Water Resource Management, ultimately contributing to the achievement of Sustainable Development Goals (SDGs). Water Resource Management is a complex, multi-dimensional challenge exacerbated by climate change, urban expansion, and socio-economic dynamics. The aim of this DSS is to provide holistic solutions to water management by combining hydrological, socio-economic, and ecological factors through an integrated modeling framework."
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project1/page.tsx",
                             lineNumber: 40,
@@ -107,7 +107,7 @@ function DSS() {
                             children: "Progress Report"
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project1/page.tsx",
-                            lineNumber: 52,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -120,23 +120,23 @@ function DSS() {
                                 className: "rounded-lg shadow-lg object-contain"
                             }, void 0, false, {
                                 fileName: "[project]/app/projects/project1/page.tsx",
-                                lineNumber: 56,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project1/page.tsx",
-                            lineNumber: 55,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/projects/project1/page.tsx",
-                    lineNumber: 51,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/projects/project1/page.tsx",
-                lineNumber: 50,
+                lineNumber: 52,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -149,7 +149,7 @@ function DSS() {
                             children: "Team DSS"
                         }, void 0, false, {
                             fileName: "[project]/app/projects/project1/page.tsx",
-                            lineNumber: 70,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this),
                         members.map((group, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -160,7 +160,7 @@ function DSS() {
                                         children: group.role
                                     }, void 0, false, {
                                         fileName: "[project]/app/projects/project1/page.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -170,29 +170,29 @@ function DSS() {
                                                 children: person
                                             }, i, false, {
                                                 fileName: "[project]/app/projects/project1/page.tsx",
-                                                lineNumber: 80,
+                                                lineNumber: 82,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/app/projects/project1/page.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 80,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/app/projects/project1/page.tsx",
-                                lineNumber: 74,
+                                lineNumber: 76,
                                 columnNumber: 13
                             }, this))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/projects/project1/page.tsx",
-                    lineNumber: 69,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/projects/project1/page.tsx",
-                lineNumber: 68,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]

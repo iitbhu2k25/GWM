@@ -112,7 +112,7 @@ function HomePage() {
                         className: "absolute inset-0 z-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/img/ganga-ghat-haridwar2-attr-hero.jpg",
+                                src: "/img/main_page_gif_old.gif",
                                 alt: "Ganga River - Clean Rivers Initiative",
                                 fill: true,
                                 className: "object-cover",
@@ -849,7 +849,7 @@ function HomePage() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                src: "/persons/Pramod_Sir.jpeg",
+                                                                src: "/persons/Pramod_Sir.jpg",
                                                                 alt: "Prof. Pramod Soni",
                                                                 width: 250,
                                                                 height: 320,
