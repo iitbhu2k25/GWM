@@ -58,23 +58,24 @@ export default function ActivitiesPage() {
             Implementation
           </motion.h2>
 
-          {/* Activities 2 - Full Width - Height matched to Activities 1 */}
+          {/* Activities 2 - Centered, Tightly Wrapped, Original Height */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="mb-12"
+            className="mb-12 flex justify-center" // Centers the image
           >
-            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2">
-              <div className="w-full overflow-hidden rounded-xl" style={{ aspectRatio: '1400/600' }}>
-                <Image
-                  src="/activities/activities2.png"
-                  alt="Activities 2 - Implementation"
-                  width={1400}
-                  height={600}
-                  className="w-full h-full object-contain rounded-xl"
-                />
-              </div>
+            {/* inline-block ensures the background box shrinks to fit the image width */}
+            <div className="inline-block rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2">
+              <Image
+                src="/activities/activities2.png"
+                alt="Activities 2 - Implementation"
+                width={1400}
+                height={600}
+                // h-auto w-auto maintains aspect ratio
+                // max-h-[600px] ensures it doesn't grow larger than your original design
+                className="w-auto h-auto max-h-[600px] rounded-xl block"
+              />
             </div>
           </motion.div>
 

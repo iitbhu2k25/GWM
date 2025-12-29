@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MapPin, Mail, Building2, Instagram, Facebook, Twitter, Linkedin, Navigation, Star, ExternalLink } from 'lucide-react';
+import { MapPin, Mail, Building2, Instagram, Facebook, Twitter, Linkedin, Navigation } from 'lucide-react';
 
 export default function ContactPage() {
   return (
@@ -22,9 +22,9 @@ export default function ContactPage() {
             animate={{ opacity: 1, y: 0 }}
             className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-8 sm:p-10"
           >
-            <div className="grid md:grid-cols-2 gap-10 items-start">
+            <div className="grid md:grid-cols-2 gap-10 items-stretch">
               {/* Left - Contact Info */}
-              <div>
+              <div className="flex flex-col justify-center">
                 {/* Main Heading with Icon */}
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
@@ -77,10 +77,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-gray-800 mb-1">E-mail</h3>
                       <a
-                        href="mailto:slcr.varanasi@gmail.com"
+                        href="mailto:slcr@iitbhu.ac.in"
                         className="text-blue-600 hover:text-blue-800 hover:underline transition-colors text-lg font-medium"
                       >
-                        slcr.varanasi@gmail.com
+                        slcr@iitbhu.ac.in
                       </a>
                     </div>
                   </div>
@@ -130,57 +130,30 @@ export default function ContactPage() {
                 </motion.div>
               </div>
 
-              {/* Right - Map with Info Card */}
-              <div>
-                {/* Google Maps Info Card */}
-                <div className="bg-white rounded-t-lg border border-gray-200 border-b-0 p-4 shadow-sm">
-                  <div className="flex justify-between items-start">
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-gray-900 text-base mb-1">
-                        Department of Civil Engineering, IIT BHU
-                      </h3>
-                      <p className="text-gray-600 text-sm leading-snug mb-2">
-                        7X7R+5HP, Banaras Hindu University<br />
-                        Campus, Varanasi, Uttar Pradesh<br />
-                        221005
-                      </p>
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="text-sm font-medium text-gray-700">4.3</span>
-                        <div className="flex">
-                          {[1, 2, 3, 4].map(i => (
-                            <Star key={i} className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />
-                          ))}
-                          <Star className="w-3.5 h-3.5 fill-yellow-400/50 text-yellow-400" />
-                        </div>
-                        <span className="text-sm text-blue-600">71 reviews</span>
-                      </div>
-                      <a
-                        href="https://maps.google.com/?q=Department+of+Civil+Engineering,+IIT+BHU,+Varanasi"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 text-sm hover:underline"
-                      >
-                        View larger map
-                      </a>
-                    </div>
-                    <a
-                      href="https://www.google.com/maps/dir//Department+of+Civil+Engineering,+IIT+BHU,+Varanasi"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex flex-col items-center text-blue-600 hover:text-blue-800 ml-4"
-                    >
-                      <Navigation className="w-5 h-5 mb-1" />
-                      <span className="text-xs">Directions</span>
-                    </a>
-                  </div>
+              {/* Right - Map with Integrated Directions Button */}
+              <div className="h-full min-h-[500px] relative">
+                
+                {/* 1. Directions Button Overlay (Floating on top of map) */}
+                <div className="absolute top-4 right-4 z-10">
+                  <a 
+                    href="https://www.google.com/maps/dir//Department+of+Civil+Engineering,+IIT+(BHU),+Varanasi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 bg-white hover:bg-gray-50 text-blue-600 px-4 py-2.5 rounded-lg shadow-lg font-medium transition-all transform hover:scale-105 border border-gray-200"
+                  >
+                    <Navigation className="w-4 h-4 fill-blue-600" />
+                    <span className="text-sm">Get Directions</span>
+                  </a>
                 </div>
 
-                {/* Map */}
-                <div className="rounded-b-lg overflow-hidden shadow-lg border-4 border-t-0 border-blue-500">
+                {/* 2. Map Container */}
+                <div className="w-full h-full rounded-2xl overflow-hidden shadow-lg border-4 border-gray-300 relative bg-gray-100">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d902.168!2d82.9897!3d25.2658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e33e9b1d0cf67%3A0x7d59b28c42a6d80e!2sDepartment%20of%20Civil%20Engineering%2C%20IIT%20(BHU)!5e0!3m2!1sen!2sin!4v1703000000000"
+                    title="Department of Civil Engineering, IIT BHU Location"
+                    // Reliable 'Search Mode' URL that ensures Red Pin appears
+                    src="https://maps.google.com/maps?q=Department+of+Civil+Engineering,+IIT+(BHU),+Varanasi&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     width="100%"
-                    height="350"
+                    height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"

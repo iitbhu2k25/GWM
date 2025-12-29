@@ -35,7 +35,7 @@ export default function AboutSLCRPage() {
                 <div className="prose max-w-none text-gray-700">
                   <p className="mb-4">
                     <span className="float-left text-7xl font-bold text-primary mr-3 leading-none mt-[-8px]">E</span>
-                    stablishment of Smart Laboratory on Clean Rivers in Varanasi (SLCR) is the initiative discussed between the Hon'ble Prime Minister of India,
+                    stablishment of Secretariat for Smart Laboratory on Clean Rivers in Varanasi (SLCR) is the initiative discussed between the Hon'ble Prime Minister of India,
                     H.E. Shri. Narendra Modi and the Prime Minister of Denmark, H.E. Ms Mette Frederiksen, on 09th October 2021 during the latter's visit to India.
                     SLCR was also mention in the India–Denmark Joint Statement released on 3rd May 2021 during the Visit of Hon'ble Prime Minister of India, H.E. Shri.
                     Narendra Modi On 03rd May 2022 as one the initiatives both the countries looked forward eagerly to be launched. On 12th September 2022 during the

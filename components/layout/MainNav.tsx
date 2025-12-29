@@ -76,7 +76,7 @@ export default function MainNav() {
         <>
             <nav
                 ref={navRef}
-                className={`bg-primary text-white transition-all duration-300 z-50 ${scrolled ? 'fixed top-0 left-0 right-0 shadow-xl' : 'relative'
+                className={`bg-cyan-700 text-white transition-all duration-300 z-50 ${scrolled ? 'fixed top-0 left-0 right-0 shadow-xl' : 'relative'
                     }`}
             >
                 <div className="max-w-7xl mx-auto px-4">

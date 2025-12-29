@@ -43,23 +43,23 @@ const teamMembers = {
             image: "/project_images/SECR/image9.jpg",
         },
         {
-            name: "Shri. Shailesh Kumar Paswan",
+            name: "Shri. Shailesh Kumar",
             designation: "Junior Research Fellow (JRF)",
             image: "/project_images/SECR/image3.jpg",
         },
         {
             name: "Shri. Chakrawarti Patel",
-            designation: "Project Assistant",
+            designation: "Project Attendant (Technical)",
             image: "/project_images/SECR/image1.jpg",
         },
         {
             name: "Shri Abhishek Kumar",
-            designation: "Project Assistant",
+            designation: "Project Attendant (SLCR)",
             image: "/project_images/SECR/image6.jpg",
         },
         {
             name: "Shri Amit Kumar Sonkar",
-            designation: "Project Assistant",
+            designation: "Project Attendant (Technical)",
             image: "/project_images/SECR/amit.jpg",
         },
     ],
@@ -71,12 +71,12 @@ const teamMembers = {
         },
         {
             name: "Shri. Krishna Tiwari",
-            designation: "Project Assistant ",
+            designation: "Project Attendant (Admin)",
             image: "/project_images/SECR/krishna.JPG",
         },
         {
             name: "Shri. Suresh Kumar Pal",
-            designation: "Project Assistant ",
+            designation: "Project Attendant (Admin)",
             image: "/project_images/SECR/image4.jpg",
         },
     ],

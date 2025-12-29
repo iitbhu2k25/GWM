@@ -329,7 +329,7 @@ export default function HomePage() {
         </div>
 
         {/* Wave Divider */}
-        <div className="absolute bottom-0 left-0 right-0 z-10">
+        <div className="absolute -bottom-[1px] left-0 right-0 z-10">
           <svg viewBox="0 0 1440 80" fill="none" className="w-full">
             <path d="M0 40L48 37C96 34 192 28 288 30C384 32 480 42 576 45C672 48 768 44 864 38C960 32 1056 24 1152 25C1248 26 1344 36 1392 41L1440 46V80H0V40Z" fill="white" />
           </svg>
