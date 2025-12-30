@@ -49,7 +49,7 @@ const teamMembers = {
         },
         {
             name: "Shri. Chakrawarti Patel",
-            designation: "Project Attendant (Technical)",
+            designation: "Project Assistant (Technical)",
             image: "/project_images/SECR/image1.jpg",
         },
         {
@@ -59,7 +59,7 @@ const teamMembers = {
         },
         {
             name: "Shri Amit Kumar Sonkar",
-            designation: "Project Attendant (Technical)",
+            designation: "Project Assistant (Technical)",
             image: "/project_images/SECR/amit.jpg",
         },
     ],
@@ -71,12 +71,12 @@ const teamMembers = {
         },
         {
             name: "Shri. Krishna Tiwari",
-            designation: "Project Attendant (Admin)",
+            designation: "Project Assistant (Admin)",
             image: "/project_images/SECR/krishna.JPG",
         },
         {
             name: "Shri. Suresh Kumar Pal",
-            designation: "Project Attendant (Admin)",
+            designation: "Project Assistant (Admin)",
             image: "/project_images/SECR/image4.jpg",
         },
     ],

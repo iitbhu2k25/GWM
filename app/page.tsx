@@ -198,18 +198,16 @@ function AimSpotlightCard() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
-                className="text-slate-500 text-sm md:text-base leading-relaxed space-y-4"
+                className="text-slate-600 text-sm md:text-base leading-relaxed space-y-4 text-justify"
               >
-                <p className="flex items-start gap-2">
-                  <span className="text-blue-500 mt-1">●</span>
-                  The government of India is dedicated towards clean and sustainable rivers.
-                  Hon'ble Prime Minister <strong className="text-slate-800">Shri Narendra Modi</strong> conceptualised the visionary
+                <p>
+                  The government of India is dedicated towards clean and sustainable rivers. 
+                  Hon&apos;ble Prime Minister <strong>Shri Narendra Modi</strong> conceptualised the visionary 
                   Smart Laboratory for Clean Rivers (SLCR) initiative with his Danish counterpart.
                 </p>
-                <p className="flex items-start gap-2">
-                  <span className="text-cyan-500 mt-1">●</span>
-                  The Smart Laboratory in Varanasi serves as a platform for <span className="font-semibold text-blue-600">knowledge creation, transfer, and co-creation</span>;
-                  It provides global and local sustainable solutions for the rejuvenation of streams/rivers, jointly managed by Indian and Danish partners.
+                <p>
+                  The Smart Laboratory in Varanasi serves as a platform for <strong>knowledge creation, transfer, and co-creation</strong>; 
+                  it provides global and local sustainable solutions for the rejuvenation of streams/rivers, jointly managed by Indian and Danish partners.
                 </p>
               </motion.div>
             </div>

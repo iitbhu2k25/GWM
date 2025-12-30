@@ -1,14 +1,7 @@
 {
-  "/about/partner/page": "app/about/partner/page.js",
-  "/about/slcr/page": "app/about/slcr/page.js",
-  "/activities/page": "app/activities/page.js",
   "/contact/page": "app/contact/page.js",
-  "/data/page": "app/data/page.js",
-  "/event/peoples_varuna/page": "app/event/peoples_varuna/page.js",
-  "/event/rhar/page": "app/event/rhar/page.js",
   "/media/page": "app/media/page.js",
   "/page": "app/page.js",
   "/projects/page": "app/projects/page.js",
-  "/projects/project1/page": "app/projects/project1/page.js",
   "/projects/project4/page": "app/projects/project4/page.js"
 }

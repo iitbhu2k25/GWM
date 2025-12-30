@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Mail, Phone, MapPin, ExternalLink, Facebook, Twitter, Youtube, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, ExternalLink, Facebook, Twitter, Youtube, Linkedin, Instagram } from 'lucide-react';
 import LogoLoop from '@/components/ui/LogoLoop';
 
 const partnerLogos = [
@@ -22,21 +22,24 @@ const partnerLogos = [
 
 const quickLinks = [
     { label: 'About SLCR', href: '/about/slcr' },
-    { label: 'Partner Institutes', href: '/about/partner' },
     { label: 'Projects', href: '/projects' },
-    { label: 'Media & Gallery', href: '/media' },
+    { label: 'Gallery', href: '/media' },
     { label: 'Contact Us', href: '/contact' },
 ];
 
-// Important Links - moved from TopBar as per user request
+// Important Links
 const importantLinks = [
-    { label: 'National Mission for Clean Ganga', href: 'https://nmcg.nic.in/' },
+     { label: 'Government of India', href: 'https://www.india.gov.in/' },
+    
     { label: 'Ministry of Jal Shakti', href: 'https://jalshakti-dowr.gov.in/' },
+    { label: 'NMCG', href: 'https://nmcg.nic.in/' },
     { label: 'Central Pollution Control Board', href: 'https://cpcb.nic.in/' },
     { label: 'Central Ground Water Board', href: 'https://cgwb.gov.in/' },
     { label: 'National Institute of Hydrology', href: 'https://nihroorkee.gov.in/' },
     { label: 'India-WRIS', href: 'https://indiawris.gov.in/' },
-    { label: 'Government of India', href: 'https://www.india.gov.in/' },
+    { label: 'IIT-BHU, Varanasi', href: 'https://www.iitbhu.ac.in/' },
+    { label: 'Government of UP', href: 'https://up.gov.in/en' },
+   
     { label: 'Decision Support System', href: 'https://slcrdss.in/' },
 ];
 
@@ -58,8 +61,10 @@ export default function Footer() {
             {/* Main Footer */}
             <div className="bg-gradient-to-b from-primary to-primary-dark text-white">
                 <div className="max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-                        {/* About */}
+                    {/* UPDATED GRID: Changed to lg:grid-cols-5 to give extra space for Important Links */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+                        
+                        {/* About - Standard Width */}
                         <div>
                             <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
                                 <span className="w-8 h-0.5 bg-accent rounded-full" />
@@ -70,22 +75,22 @@ export default function Footer() {
                                 and Denmark for sustainable river rejuvenation and water management.
                             </p>
                             <div className="flex gap-3 mt-4">
-                                <a href="#" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
+                                <a href="https://www.facebook.com/people/Smart-Lab-On-Clean-Rivers/61577375996615/#" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
                                     <Facebook size={18} />
                                 </a>
-                                <a href="#" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
+                                <a href="https://x.com/JalTattva" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
                                     <Twitter size={18} />
                                 </a>
-                                <a href="#" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
-                                    <Youtube size={18} />
+                                <a href="https://www.instagram.com/slcr.iitbhu/" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
+                                    <Instagram size={18} />
                                 </a>
-                                <a href="#" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
+                                <a href="https://www.linkedin.com/in/slcr-smart-laboratory-on-clean-rivers-b65a4134a/" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
                                     <Linkedin size={18} />
                                 </a>
                             </div>
                         </div>
 
-                        {/* Quick Links */}
+                        {/* Quick Links - Standard Width */}
                         <div>
                             <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
                                 <span className="w-8 h-0.5 bg-accent rounded-full" />
@@ -105,30 +110,31 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        {/* Important Links - Now includes the gov links */}
-                        <div>
+                        {/* Important Links - DOUBLE WIDTH (col-span-2) */}
+                        <div className="lg:col-span-2">
                             <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
                                 <span className="w-8 h-0.5 bg-accent rounded-full" />
                                 Important Links
                             </h4>
-                            <ul className="space-y-2.5">
+                            {/* UPDATED LIST: Grid Layout (2 columns) */}
+                            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5">
                                 {importantLinks.map((link) => (
                                     <li key={link.href}>
                                         <a
                                             href={link.href}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center gap-1.5"
+                                            className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center gap-1.5 break-words"
                                         >
                                             {link.label}
-                                            <ExternalLink size={10} />
+                                            <ExternalLink size={10} className="shrink-0" />
                                         </a>
                                     </li>
                                 ))}
                             </ul>
                         </div>
 
-                        {/* Contact */}
+                        {/* Contact - Standard Width */}
                         <div>
                             <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
                                 <span className="w-8 h-0.5 bg-accent rounded-full" />
@@ -141,8 +147,8 @@ export default function Footer() {
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <Mail size={18} className="text-accent" />
-                                    <a href="mailto:slcr.varanasi@gmail.com" className="hover:text-white transition-colors">
-                                        slcr.varanasi@gmail.com
+                                    <a href="mailto:slcr@iitbhu.ac.in" className="hover:text-white transition-colors">
+                                        slcr@iitbhu.ac.in
                                     </a>
                                 </li>
                                 <li className="flex items-center gap-3">

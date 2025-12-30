@@ -151,7 +151,6 @@ export default function Header() {
                             <h1 className="text-lg sm:text-xl font-bold text-primary leading-tight">
                                 Smart Laboratory on Clean Rivers
                             </h1>
-                            <p className="text-xs text-gray-500 mt-0.5">Varanasi</p>
                         </Link>
                     </div>
                 </div>

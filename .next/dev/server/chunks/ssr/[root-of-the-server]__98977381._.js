@@ -540,25 +540,15 @@ function Header() {
                             className: "text-center mt-3 pt-3 border-t border-gray-100",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "text-lg sm:text-xl font-bold text-primary leading-tight",
-                                        children: "Smart Laboratory on Clean Rivers"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/layout/Header.tsx",
-                                        lineNumber: 151,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-xs text-gray-500 mt-0.5",
-                                        children: "Varanasi"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/layout/Header.tsx",
-                                        lineNumber: 154,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-lg sm:text-xl font-bold text-primary leading-tight",
+                                    children: "Smart Laboratory on Clean Rivers"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/layout/Header.tsx",
+                                    lineNumber: 151,
+                                    columnNumber: 29
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
                                 lineNumber: 150,
                                 columnNumber: 25
@@ -1075,8 +1065,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/external-link.js [app-ssr] (ecmascript) <export default as ExternalLink>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/facebook.js [app-ssr] (ecmascript) <export default as Facebook>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/twitter.js [app-ssr] (ecmascript) <export default as Twitter>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$youtube$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Youtube$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/youtube.js [app-ssr] (ecmascript) <export default as Youtube>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/linkedin.js [app-ssr] (ecmascript) <export default as Linkedin>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/instagram.js [app-ssr] (ecmascript) <export default as Instagram>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LogoLoop$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/LogoLoop.tsx [app-ssr] (ecmascript)");
 'use client';
 ;
@@ -1151,15 +1141,11 @@ const quickLinks = [
         href: '/about/slcr'
     },
     {
-        label: 'Partner Institutes',
-        href: '/about/partner'
-    },
-    {
         label: 'Projects',
         href: '/projects'
     },
     {
-        label: 'Media & Gallery',
+        label: 'Gallery',
         href: '/media'
     },
     {
@@ -1167,15 +1153,19 @@ const quickLinks = [
         href: '/contact'
     }
 ];
-// Important Links - moved from TopBar as per user request
+// Important Links
 const importantLinks = [
     {
-        label: 'National Mission for Clean Ganga',
-        href: 'https://nmcg.nic.in/'
+        label: 'Government of India',
+        href: 'https://www.india.gov.in/'
     },
     {
         label: 'Ministry of Jal Shakti',
         href: 'https://jalshakti-dowr.gov.in/'
+    },
+    {
+        label: 'NMCG',
+        href: 'https://nmcg.nic.in/'
     },
     {
         label: 'Central Pollution Control Board',
@@ -1194,8 +1184,12 @@ const importantLinks = [
         href: 'https://indiawris.gov.in/'
     },
     {
-        label: 'Government of India',
-        href: 'https://www.india.gov.in/'
+        label: 'IIT-BHU, Varanasi',
+        href: 'https://www.iitbhu.ac.in/'
+    },
+    {
+        label: 'Government of UP',
+        href: 'https://up.gov.in/en'
     },
     {
         label: 'Decision Support System',
@@ -1216,7 +1210,7 @@ function Footer() {
                             children: "Our Partners & Associates"
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Footer.tsx",
-                            lineNumber: 51,
+                            lineNumber: 54,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LogoLoop$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1224,18 +1218,18 @@ function Footer() {
                             speed: 30
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Footer.tsx",
-                            lineNumber: 54,
+                            lineNumber: 57,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/layout/Footer.tsx",
-                    lineNumber: 50,
+                    lineNumber: 53,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/layout/Footer.tsx",
-                lineNumber: 49,
+                lineNumber: 52,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1243,7 +1237,7 @@ function Footer() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10",
+                        className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
@@ -1254,14 +1248,14 @@ function Footer() {
                                                 className: "w-8 h-0.5 bg-accent rounded-full"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 70,
                                                 columnNumber: 33
                                             }, this),
                                             "About SLCR"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 69,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1269,82 +1263,82 @@ function Footer() {
                                         children: "Smart Laboratory on Clean Rivers (SLCR) is a joint initiative between India and Denmark for sustainable river rejuvenation and water management."
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 73,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex gap-3 mt-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "#",
+                                                href: "https://www.facebook.com/people/Smart-Lab-On-Clean-Rivers/61577375996615/#",
                                                 className: "p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 79,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 78,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "#",
+                                                href: "https://x.com/JalTattva",
                                                 className: "p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__["Twitter"], {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 82,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 81,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "#",
+                                                href: "https://www.instagram.com/slcr.iitbhu/",
                                                 className: "p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$youtube$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Youtube$3e$__["Youtube"], {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 85,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 79,
+                                                lineNumber: 84,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "#",
+                                                href: "https://www.linkedin.com/in/slcr-smart-laboratory-on-clean-rivers-b65a4134a/",
                                                 className: "p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"], {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 88,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 87,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 77,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.tsx",
-                                lineNumber: 63,
+                                lineNumber: 68,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1356,14 +1350,14 @@ function Footer() {
                                                 className: "w-8 h-0.5 bg-accent rounded-full"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 96,
                                                 columnNumber: 33
                                             }, this),
                                             "Quick Links"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 90,
+                                        lineNumber: 95,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1378,7 +1372,7 @@ function Footer() {
                                                             children: "›"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/Footer.tsx",
-                                                            lineNumber: 101,
+                                                            lineNumber: 106,
                                                             columnNumber: 45
                                                         }, this),
                                                         " ",
@@ -1386,26 +1380,27 @@ function Footer() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 102,
                                                     columnNumber: 41
                                                 }, this)
                                             }, link.href, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 101,
                                                 columnNumber: 37
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 99,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.tsx",
-                                lineNumber: 89,
+                                lineNumber: 94,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "lg:col-span-2",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                         className: "text-lg font-semibold mb-4 flex items-center gap-2",
@@ -1414,53 +1409,54 @@ function Footer() {
                                                 className: "w-8 h-0.5 bg-accent rounded-full"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 116,
                                                 columnNumber: 33
                                             }, this),
                                             "Important Links"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 115,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        className: "space-y-2.5",
+                                        className: "grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5",
                                         children: importantLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     href: link.href,
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
-                                                    className: "text-sm text-white/70 hover:text-white transition-colors inline-flex items-center gap-1.5",
+                                                    className: "text-sm text-white/70 hover:text-white transition-colors inline-flex items-center gap-1.5 break-words",
                                                     children: [
                                                         link.label,
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
-                                                            size: 10
+                                                            size: 10,
+                                                            className: "shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/Footer.tsx",
-                                                            lineNumber: 124,
+                                                            lineNumber: 130,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 117,
+                                                    lineNumber: 123,
                                                     columnNumber: 41
                                                 }, this)
                                             }, link.href, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 116,
+                                                lineNumber: 122,
                                                 columnNumber: 37
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 120,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.tsx",
-                                lineNumber: 109,
+                                lineNumber: 114,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1472,14 +1468,14 @@ function Footer() {
                                                 className: "w-8 h-0.5 bg-accent rounded-full"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 140,
                                                 columnNumber: 33
                                             }, this),
                                             "Contact Us"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 139,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1493,20 +1489,20 @@ function Footer() {
                                                         className: "shrink-0 mt-0.5 text-accent"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/layout/Footer.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 145,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "SLCR, Indian Institute of Technology (BHU), Varanasi - 221005, India"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/layout/Footer.tsx",
-                                                        lineNumber: 140,
+                                                        lineNumber: 146,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 144,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1517,39 +1513,13 @@ function Footer() {
                                                         className: "text-accent"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/layout/Footer.tsx",
-                                                        lineNumber: 143,
-                                                        columnNumber: 37
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "mailto:slcr.varanasi@gmail.com",
-                                                        className: "hover:text-white transition-colors",
-                                                        children: "slcr.varanasi@gmail.com"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/layout/Footer.tsx",
-                                                        lineNumber: 144,
-                                                        columnNumber: 37
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 142,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center gap-3",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                        size: 18,
-                                                        className: "text-accent"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/layout/Footer.tsx",
                                                         lineNumber: 149,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "tel:+915422368106",
+                                                        href: "mailto:slcr@iitbhu.ac.in",
                                                         className: "hover:text-white transition-colors",
-                                                        children: "+91 542-236-8106"
+                                                        children: "slcr@iitbhu.ac.in"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/layout/Footer.tsx",
                                                         lineNumber: 150,
@@ -1560,33 +1530,59 @@ function Footer() {
                                                 fileName: "[project]/components/layout/Footer.tsx",
                                                 lineNumber: 148,
                                                 columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                className: "flex items-center gap-3",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                                        size: 18,
+                                                        className: "text-accent"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/layout/Footer.tsx",
+                                                        lineNumber: 155,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "tel:+915422368106",
+                                                        className: "hover:text-white transition-colors",
+                                                        children: "+91 542-236-8106"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/layout/Footer.tsx",
+                                                        lineNumber: 156,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/layout/Footer.tsx",
+                                                lineNumber: 154,
+                                                columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 143,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.tsx",
-                                lineNumber: 132,
+                                lineNumber: 138,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/layout/Footer.tsx",
-                        lineNumber: 61,
+                        lineNumber: 65,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/layout/Footer.tsx",
-                    lineNumber: 60,
+                    lineNumber: 63,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/layout/Footer.tsx",
-                lineNumber: 59,
+                lineNumber: 62,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1606,43 +1602,43 @@ function Footer() {
                                         children: "SLCR"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 171,
                                         columnNumber: 55
                                     }, this),
                                     " | All Rights Reserved"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.tsx",
-                                lineNumber: 164,
+                                lineNumber: 170,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "SLCR, Indian Institute of Technology, BHU, Varanasi"
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Footer.tsx",
-                                lineNumber: 167,
+                                lineNumber: 173,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/layout/Footer.tsx",
-                        lineNumber: 163,
+                        lineNumber: 169,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/layout/Footer.tsx",
-                    lineNumber: 162,
+                    lineNumber: 168,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/layout/Footer.tsx",
-                lineNumber: 161,
+                lineNumber: 167,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/layout/Footer.tsx",
-        lineNumber: 47,
+        lineNumber: 50,
         columnNumber: 9
     }, this);
 }
