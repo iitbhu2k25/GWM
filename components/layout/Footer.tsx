@@ -37,6 +37,8 @@ const importantLinks = [
     { label: 'Central Ground Water Board', href: 'https://cgwb.gov.in/' },
     { label: 'National Institute of Hydrology', href: 'https://nihroorkee.gov.in/' },
     { label: 'India-WRIS', href: 'https://indiawris.gov.in/' },
+    { label: 'NWDA', href: 'https://nwda.gov.in/' },
+    { label: 'IMD', href: 'https://mausam.imd.gov.in/' },
     { label: 'IIT-BHU, Varanasi', href: 'https://www.iitbhu.ac.in/' },
     { label: 'Government of UP', href: 'https://up.gov.in/en' },
    
