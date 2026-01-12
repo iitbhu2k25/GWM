@@ -113,13 +113,29 @@ export default function HMVBProject() {
               <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">About HMVB</h2>
               <div className="prose prose-lg max-w-none text-justify">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  The <strong className="text-primary">Hydrogeological Models of the Varuna Basin (HMVB)</strong> project aims to find groundwater recharge sites to enhance base flow through Managed Aquifer Recharge (MAR). This innovative approach combines advanced geophysical techniques with mathematical modeling.
+                  The <strong className="text-primary">Hydrogeological Models of the Varuna Basin (HMVB)</strong> project focuses on assessing and enhancing River-Aquifer Exchanges (RAE) in
+                   the Varuna River Basin, a tributary of the Ganga, to address declining baseflow and groundwater depletion. The primary challenge lies in understanding the complex riverbed
+                    lithology, which governs groundwater interactions but remains difficult to map using conventional methods. To overcome this, the study integrates advanced geophysical
+                     techniques (heliborne, surface-borne and river-borne TEM surveys), real-time IoT-based monitoring and numerical groundwater modelling to comprehensively assess
+                      river-aquifer dynamics.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  The project employs cutting-edge geophysical techniques including Transient Electromagnetic (TEM) methods for subsurface characterization. Through collaboration with Aarhus University, the team is developing comprehensive mathematical models to understand groundwater dynamics in the Varuna Basin.
+                  <strong className="text-gray-700">The key objectives of the project include:</strong>
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Key objectives include mapping aquifer systems, identifying potential recharge zones, and developing sustainable groundwater management strategies. The project contributes to long-term water security by enhancing natural groundwater replenishment processes.
+                    Mapping and characterising riverbed sediments to identify active exchange zones.                
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                    Quantifying groundwater contributions to the river and vice versa, assessing pollution plumes.                
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                    Developing an RAE model for optimized Managed Aquifer Recharge (MAR) site selection.                
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                    Comparing heliborne and river-borne TEM surveys to refine subsurface characterization methodologies.                
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                    Capacity building and startup promotion for technology transfer and wider adoption.                
                 </p>
               </div>
             </motion.div>
@@ -133,11 +149,11 @@ export default function HMVBProject() {
             >
               <div className="rounded-2xl overflow-hidden shadow-2xl w-full h-full bg-white relative">
                 <Image
-                  src="/project_images/varuna1.png"
+                  src="/project_images/varuna7.png"
                   alt="Hydrogeological Models of Varuna Basin"
                   fill
                   quality={100}
-                  className="object-contain p-2"
+                  className="object-cover p-2"
                 />
               </div>
             </motion.div>
@@ -158,7 +174,7 @@ export default function HMVBProject() {
                   <div className="flex justify-center">
                     <div className="rounded-xl overflow-hidden shadow-lg w-full">
                       <Image
-                        src="/P_2.0.jpg"
+                        src="/proj3.png"
                         alt="Progress Report"
                         width={1200}
                         height={600}

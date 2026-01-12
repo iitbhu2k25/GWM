@@ -234,7 +234,7 @@ export default function DSS() {
             <div className="flex justify-center">
               <div className="rounded-xl overflow-hidden shadow-lg w-full">
                 <Image
-                  src="/P_1.0.jpg"
+                  src="/proj1.png"
                   alt="Progress Report"
                   width={1200}
                   height={600}

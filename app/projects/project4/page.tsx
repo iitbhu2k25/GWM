@@ -43,11 +43,6 @@ const teamMembers = {
             image: "/project_images/SECR/image9.jpg",
         },
         {
-            name: "Shri. Shailesh Kumar",
-            designation: "Junior Research Fellow (JRF)",
-            image: "/project_images/SECR/image3.jpg",
-        },
-        {
             name: "Shri. Chakrawarti Patel",
             designation: "Project Assistant (Technical)",
             image: "/project_images/SECR/image1.jpg",
