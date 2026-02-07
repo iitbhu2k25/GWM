@@ -146,12 +146,14 @@ const Navbar: React.FC = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState<Record<string, boolean>>({
     about: false,
     projects: false,
-    activities: false,
+    events: false,
+    people: false,
   });
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState<Record<string, boolean>>({
     about: false,
     projects: false,
-    activities: false,
+    events: false,
+    people: false,
   });
 
   const [isMounted, setIsMounted] = useState(false);
@@ -212,22 +214,40 @@ const Navbar: React.FC = () => {
                 isOpen={isMobileDropdownOpen.projects}
                 setIsOpen={setIsMobileDropdownOpen}
                 items={[
-                  { href: "/projects/project1", text: "DSS-WRM" },
-                  { href: "/projects/project2", text: "Fingerprint Analysis" },
-                  { href: "/projects/project3", text: "Hydrological Modelling of Varuna" },
+                  { href: "/projects", text: "Overview" },
+                  { href: "/secretariat", text: "SLCR Secretariat" },
+                  { href: "/projects/project1", text: "DSS" },
+                  { href: "/projects/project2", text: "HMVB" },
+                  { href: "/projects/project3", text: "EPFA" },
                 ]}
               />
               <MobileDropdown
-                label="Activities"
-                type="activities"
-                isOpen={isMobileDropdownOpen.activities}
+                label="Events"
+                type="events"
+                isOpen={isMobileDropdownOpen.events}
                 setIsOpen={setIsMobileDropdownOpen}
                 items={[
+                  { href: "/event/workshops", text: "Workshops" },
+                  { href: "/event/seminars", text: "Seminars" },
+                  { href: "/event/visits", text: "Visits" },
+                  { href: "/event/meetings", text: "Meetings" },
                   { href: "/event/rhar", text: "RHAR 2025" },
-                  { href: "/activities/peoples_varuna", text: "People’s Varuna" },
                 ]}
               />
-              <MobileNavItem href="/data" text="Data" setIsOpen={setIsOpen} />
+              <MobileDropdown
+                label="People"
+                type="people"
+                isOpen={isMobileDropdownOpen.people}
+                setIsOpen={setIsMobileDropdownOpen}
+                items={[
+                  { href: "/people/mojs", text: "MOJS Officials" },
+                  { href: "/people/nmcg", text: "NMCG Officials" },
+                  { href: "/people/slcr", text: "SLCR" },
+                  { href: "/people/dss", text: "DSS" },
+                  { href: "/people/hmvb", text: "HMVB" },
+                  { href: "/people/epfa", text: "EPFA" },
+                ]}
+              />
               <MobileNavItem href="/media" text="Gallery" setIsOpen={setIsOpen} />
               <MobileNavItem href="/contact" text="Contact" setIsOpen={setIsOpen} />
             </ul>

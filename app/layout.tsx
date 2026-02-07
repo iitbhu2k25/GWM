@@ -12,9 +12,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "SLCR - Smart Laboratory on Clean Rivers",
-  description: "Indo-Danish initiative for sustainable river rejuvenation and innovative wastewater treatment technologies in Varanasi.",
-  keywords: ["SLCR", "Clean Rivers", "Varanasi", "India Denmark", "Jal Shakti", "Namami Gange", "Water Technology"],
+  title: "GWM - Groundwater Monitoring & Analysis Portal",
+  description: "Advanced groundwater monitoring, analysis and management portal. Real-time data on groundwater potential, quality, contamination, vulnerability and depth measurements.",
+  keywords: ["Groundwater", "Water Monitoring", "Aquifer Analysis", "Water Quality", "Groundwater Depth", "Contamination Monitoring", "Hydrogeology", "Water Resources"],
 };
 
 interface RootLayoutProps {
@@ -29,7 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <TopBar />
 
         {/* Header with Logos */}
-        <Header />
+        {/* <Header /> */}
 
         {/* Main Navigation */}
         <MainNav />

@@ -301,11 +301,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 function Header() {
-    return(// Adjusted padding to be balanced (py-3 md:py-4)
+    return(// Increased relative z-index and ensured clean white background
     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: "bg-white shadow-sm relative z-40",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[1800px] mx-auto px-4 sm:px-6 py-3 md:py-4",
+            className: "max-w-[1800px] mx-auto px-4 sm:px-3 py-3 md:py-4",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "hidden md:flex items-center justify-between gap-4",
@@ -320,18 +320,18 @@ function Header() {
                                 alt: "Denmark Ministry of Foreign Affairs",
                                 width: 220,
                                 height: 90,
-                                // UPDATED: Reduced slightly from h-20 to h-14/h-16
-                                className: "h-14 lg:h-16 w-auto object-contain",
+                                // UPDATED: Reduced height from h-16/h-20 to h-10/h-12
+                                className: "h-10 lg:h-12 w-auto object-contain",
                                 priority: true,
                                 unoptimized: true
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 15,
+                            lineNumber: 16,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -344,20 +344,20 @@ function Header() {
                                 alt: "Ministry of Jal Shakti",
                                 width: 100,
                                 height: 90,
-                                // UPDATED: Reduced slightly from h-20 to h-14/h-16
-                                className: "h-14 lg:h-16 w-auto object-contain",
+                                // UPDATED: Reduced height from h-16/h-20 to h-10/h-12
+                                className: "h-10 lg:h-12 w-auto object-contain",
                                 style: {
                                     filter: 'none'
                                 },
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
-                                lineNumber: 40,
+                                lineNumber: 41,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 34,
+                            lineNumber: 35,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -366,8 +366,8 @@ function Header() {
                                 href: "/",
                                 className: "inline-block",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-xl lg:text-2xl xl:text-3xl font-bold text-primary tracking-tight hover:text-primary-light transition-colors leading-tight",
-                                    children: "Smart Laboratory on Clean Rivers"
+                                    className: "text-2xl lg:text-3xl xl:text-5xl font-extrabold text-primary tracking-tight hover:text-primary-light transition-colors leading-tight",
+                                    children: "GroundWater Analysis Portal"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
                                     lineNumber: 56,
@@ -375,12 +375,12 @@ function Header() {
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 53,
+                            lineNumber: 54,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -391,8 +391,8 @@ function Header() {
                                 alt: "SLCR Logo",
                                 width: 180,
                                 height: 180,
-                                // UPDATED: Reduced slightly from h-20 to h-14/h-16
-                                className: "h-14 lg:h-16 w-auto object-contain",
+                                // KEPT: Maintained h-16/h-20 to keep it prominent
+                                className: "h-16 lg:h-20 w-auto object-contain",
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
@@ -414,8 +414,8 @@ function Header() {
                                 alt: "Namami Gange Programme",
                                 width: 80,
                                 height: 60,
-                                // UPDATED: Reduced slightly from h-20 to h-14/h-16
-                                className: "h-14 lg:h-16 w-auto object-contain",
+                                // UPDATED: Reduced height from h-16/h-20 to h-10/h-12
+                                className: "h-10 lg:h-12 w-auto object-contain",
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
@@ -430,7 +430,7 @@ function Header() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/layout/Header.tsx",
-                    lineNumber: 13,
+                    lineNumber: 14,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -449,18 +449,18 @@ function Header() {
                                         alt: "Denmark Ministry",
                                         width: 160,
                                         height: 70,
-                                        // UPDATED: Mobile size h-9 to h-10
-                                        className: "h-9 sm:h-10 w-auto object-contain",
+                                        // UPDATED: Reduced from h-10/h-12 to h-7/h-8
+                                        className: "h-7 sm:h-8 w-auto object-contain",
                                         priority: true,
                                         unoptimized: true
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Header.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 102,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 101,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -473,19 +473,20 @@ function Header() {
                                         alt: "Ministry of Jal Shakti",
                                         width: 80,
                                         height: 70,
-                                        className: "h-9 sm:h-10 w-auto object-contain",
+                                        // UPDATED: Reduced from h-10/h-12 to h-7/h-8
+                                        className: "h-7 sm:h-8 w-auto object-contain",
                                         style: {
                                             filter: 'none'
                                         },
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Header.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 115,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 113,
+                                    lineNumber: 114,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -496,16 +497,17 @@ function Header() {
                                         alt: "SLCR Logo",
                                         width: 140,
                                         height: 140,
-                                        className: "h-9 sm:h-10 w-auto object-contain",
+                                        // KEPT: Maintained h-10/h-12
+                                        className: "h-10 sm:h-12 w-auto object-contain",
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Header.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 129,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 128,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -518,16 +520,17 @@ function Header() {
                                         alt: "Namami Gange",
                                         width: 60,
                                         height: 40,
-                                        className: "h-9 sm:h-10 w-auto object-contain",
+                                        // UPDATED: Reduced from h-10/h-12 to h-7/h-8
+                                        className: "h-7 sm:h-8 w-auto object-contain",
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Header.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 141,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 140,
                                     columnNumber: 25
                                 }, this)
                             ]
@@ -537,25 +540,25 @@ function Header() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mt-3 pt-3 border-t border-gray-100",
+                            className: "text-center mt-4 pt-4 border-t border-gray-100",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-lg sm:text-xl font-bold text-primary leading-tight",
+                                    className: "text-xl sm:text-2xl font-extrabold text-primary leading-tight",
                                     children: "Smart Laboratory on Clean Rivers"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 151,
+                                    lineNumber: 156,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
-                                lineNumber: 150,
+                                lineNumber: 155,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 149,
+                            lineNumber: 154,
                             columnNumber: 21
                         }, this)
                     ]
@@ -567,7 +570,7 @@ function Header() {
             ]
         }, void 0, true, {
             fileName: "[project]/components/layout/Header.tsx",
-            lineNumber: 10,
+            lineNumber: 11,
             columnNumber: 13
         }, this)
     }, void 0, false, {
@@ -624,52 +627,32 @@ const navItems = [
         href: '/'
     },
     {
-        label: 'About',
-        href: '/about',
-        children: [
-            {
-                label: 'SLCR',
-                href: '/about/slcr'
-            },
-            {
-                label: 'Partner Institutes',
-                href: '/about/partner'
-            }
-        ]
+        label: 'Groundwater Potential',
+        href: '/gw-potential'
     },
     {
-        label: 'Activities',
-        href: '/activities'
+        label: 'Pumping Locations',
+        href: '/gw-pumping'
     },
     {
-        label: 'Projects',
-        href: '/projects'
+        label: 'Contamination Analysis',
+        href: '/gw-contamination'
     },
     {
-        label: 'Event',
-        href: '/event',
-        children: [
-            {
-                label: 'RHAR 2025',
-                href: '/event/rhar'
-            },
-            {
-                label: "People's Varuna",
-                href: '/event/peoples_varuna'
-            }
-        ]
+        label: 'Vulnerability Assessment',
+        href: '/gw-vulnerability'
     },
     {
-        label: 'Data',
-        href: '/data'
+        label: 'River-Aquifer Exchange',
+        href: '/river-aquifer'
     },
     {
-        label: 'SLCR Gallery',
-        href: '/media'
+        label: 'Water Quality',
+        href: '/gw-quality'
     },
     {
-        label: 'Contact',
-        href: '/contact'
+        label: 'Depth Monitoring',
+        href: '/gw-depth'
     }
 ];
 function MainNav() {
@@ -678,7 +661,7 @@ function MainNav() {
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePathname"])();
     const navRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const timeoutRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const dropdownRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])({});
     // Scroll listener
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const handleScroll = ()=>setScrolled(window.scrollY > 80);
@@ -692,12 +675,55 @@ function MainNav() {
     }, [
         pathname
     ]);
+    // Click outside handler - closes dropdown when clicking outside
+    const handleClickOutside = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((event)=>{
+        if (openDropdown) {
+            const dropdownElement = dropdownRefs.current[openDropdown];
+            if (dropdownElement && !dropdownElement.contains(event.target)) {
+                setOpenDropdown(null);
+            }
+        }
+    }, [
+        openDropdown
+    ]);
+    // Add/remove click outside listener
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (openDropdown) {
+            // Small delay to prevent immediate close on the same click that opened it
+            const timeoutId = setTimeout(()=>{
+                document.addEventListener('click', handleClickOutside);
+            }, 10);
+            return ()=>{
+                clearTimeout(timeoutId);
+                document.removeEventListener('click', handleClickOutside);
+            };
+        }
+    }, [
+        openDropdown,
+        handleClickOutside
+    ]);
+    // Toggle dropdown on click
+    const handleDropdownClick = (label, event)=>{
+        event.stopPropagation();
+        setOpenDropdown((prev)=>prev === label ? null : label);
+    };
+    // Handle mouse enter for hover-to-open behavior
     const handleMouseEnter = (label)=>{
-        if (timeoutRef.current) clearTimeout(timeoutRef.current);
         setOpenDropdown(label);
     };
-    const handleMouseLeave = ()=>{
-        timeoutRef.current = setTimeout(()=>setOpenDropdown(null), 150);
+    // Handle mouse leave - only close if moving completely outside the dropdown area
+    const handleMouseLeave = (event, label)=>{
+        const dropdownElement = dropdownRefs.current[label];
+        if (dropdownElement) {
+            const rect = dropdownElement.getBoundingClientRect();
+            const mouseX = event.clientX;
+            const mouseY = event.clientY;
+            // Check if mouse is moving outside the dropdown container bounds
+            const isOutside = mouseX < rect.left || mouseX > rect.right || mouseY < rect.top || mouseY > rect.bottom + 10; // Add buffer for smooth transition
+            if (isOutside) {
+                setOpenDropdown(null);
+            }
+        }
     };
     const isActive = (href)=>{
         if (href === '/') return pathname === '/';
@@ -715,12 +741,16 @@ function MainNav() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "hidden lg:flex items-center justify-center gap-8",
                                 children: navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        ref: (el)=>{
+                                            dropdownRefs.current[item.label] = el;
+                                        },
                                         className: "relative",
                                         onMouseEnter: ()=>item.children && handleMouseEnter(item.label),
-                                        onMouseLeave: handleMouseLeave,
+                                        onMouseLeave: (e)=>item.children && handleMouseLeave(e, item.label),
                                         children: [
                                             item.children ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: `flex items-center gap-1.5 px-5 py-4 font-medium transition-all hover:bg-white/10 ${isActive(item.href) ? 'bg-white/15' : ''}`,
+                                                onClick: (e)=>handleDropdownClick(item.label, e),
+                                                className: `flex items-center gap-1.5 px-5 py-4 font-medium transition-all hover:bg-white/10 ${isActive(item.href) ? 'bg-white/15' : ''} ${openDropdown === item.label ? 'bg-white/20' : ''}`,
                                                 "aria-expanded": openDropdown === item.label,
                                                 children: [
                                                     item.label,
@@ -729,13 +759,13 @@ function MainNav() {
                                                         className: `transition-transform duration-200 ${openDropdown === item.label ? 'rotate-180' : ''}`
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/layout/MainNav.tsx",
-                                                        lineNumber: 99,
+                                                        lineNumber: 134,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/layout/MainNav.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 127,
                                                 columnNumber: 37
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: item.href,
@@ -743,7 +773,7 @@ function MainNav() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/MainNav.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 141,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -764,36 +794,35 @@ function MainNav() {
                                                         duration: 0.15
                                                     },
                                                     className: "absolute left-0 top-full w-56 bg-white rounded-b-xl shadow-2xl overflow-hidden z-50",
-                                                    onMouseEnter: ()=>handleMouseEnter(item.label),
-                                                    onMouseLeave: handleMouseLeave,
                                                     children: item.children.map((child)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             href: child.href,
+                                                            onClick: ()=>setOpenDropdown(null),
                                                             className: `block px-5 py-3 text-gray-700 hover:bg-primary hover:text-white transition-colors border-l-3 border-transparent hover:border-accent ${isActive(child.href) ? 'bg-primary/10 text-primary font-medium' : ''}`,
                                                             children: child.label
                                                         }, child.href, false, {
                                                             fileName: "[project]/components/layout/MainNav.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 161,
                                                             columnNumber: 49
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/layout/MainNav.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 153,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/MainNav.tsx",
-                                                lineNumber: 116,
+                                                lineNumber: 151,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, item.label, true, {
                                         fileName: "[project]/components/layout/MainNav.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 119,
                                         columnNumber: 29
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/MainNav.tsx",
-                                lineNumber: 84,
+                                lineNumber: 117,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -804,7 +833,7 @@ function MainNav() {
                                         children: "Menu"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/MainNav.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 180,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -815,30 +844,30 @@ function MainNav() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/MainNav.tsx",
-                                            lineNumber: 152,
+                                            lineNumber: 186,
                                             columnNumber: 43
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/MainNav.tsx",
-                                            lineNumber: 152,
+                                            lineNumber: 186,
                                             columnNumber: 61
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/MainNav.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 181,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/MainNav.tsx",
-                                lineNumber: 145,
+                                lineNumber: 179,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/layout/MainNav.tsx",
-                        lineNumber: 82,
+                        lineNumber: 115,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -872,13 +901,13 @@ function MainNav() {
                                                             className: `transition-transform ${openDropdown === item.label ? 'rotate-180' : ''}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/MainNav.tsx",
-                                                            lineNumber: 176,
+                                                            lineNumber: 210,
                                                             columnNumber: 53
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/layout/MainNav.tsx",
-                                                    lineNumber: 171,
+                                                    lineNumber: 205,
                                                     columnNumber: 49
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -899,17 +928,17 @@ function MainNav() {
                                                                 children: child.label
                                                             }, child.href, false, {
                                                                 fileName: "[project]/components/layout/MainNav.tsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 224,
                                                                 columnNumber: 65
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/layout/MainNav.tsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 217,
                                                         columnNumber: 57
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/layout/MainNav.tsx",
-                                                    lineNumber: 181,
+                                                    lineNumber: 215,
                                                     columnNumber: 49
                                                 }, this)
                                             ]
@@ -919,40 +948,40 @@ function MainNav() {
                                             children: item.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/MainNav.tsx",
-                                            lineNumber: 203,
+                                            lineNumber: 237,
                                             columnNumber: 45
                                         }, this)
                                     }, item.label, false, {
                                         fileName: "[project]/components/layout/MainNav.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 202,
                                         columnNumber: 37
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/MainNav.tsx",
-                                lineNumber: 166,
+                                lineNumber: 200,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/layout/MainNav.tsx",
-                            lineNumber: 160,
+                            lineNumber: 194,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/layout/MainNav.tsx",
-                        lineNumber: 158,
+                        lineNumber: 192,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/layout/MainNav.tsx",
-                lineNumber: 77,
+                lineNumber: 110,
                 columnNumber: 13
             }, this),
             scrolled && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "h-14 lg:h-[56px]"
             }, void 0, false, {
                 fileName: "[project]/components/layout/MainNav.tsx",
-                lineNumber: 220,
+                lineNumber: 254,
                 columnNumber: 26
             }, this)
         ]

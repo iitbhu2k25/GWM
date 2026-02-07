@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ChevronDown, Menu, X } from 'lucide-react';
@@ -16,25 +16,22 @@ const navItems: NavItem[] = [
     { label: 'Home', href: '/' },
     {
         label: 'About',
-        href: '/about',
+        href: '#',
         children: [
-            { label: 'SLCR', href: '/about/slcr' },
-            { label: 'Partner Institutes', href: '/about/partner' },
-        ],
+            { label: 'Overview', href: '/about/overview' },
+            { label: 'Objectives', href: '/about/objectives' },
+            { label: 'Mission and Vision', href: '/about/mission-vision' },
+            { label: 'Core Values', href: '/about/core-values' },
+        ]
     },
-    { label: 'Activities', href: '/activities' },
-    { label: 'Projects', href: '/projects' },
-    {
-        label: 'Event',
-        href: '/event',
-        children: [
-            { label: 'RHAR 2025', href: '/event/rhar' },
-            { label: "People's Varuna", href: '/event/peoples_varuna' },
-        ],
-    },
-    { label: 'Data', href: '/data' },
-    { label: 'SLCR Gallery', href: '/media' },
-    { label: 'Contact', href: '/contact' },
+    { label: 'Depth Monitoring', href: '/gw-depth' },
+    { label: 'Water Quality', href: '/gw-quality' },
+    { label: 'Groundwater Potential', href: '/gw-potential' },
+    { label: 'Pumping Location', href: '/gw-pumping' },
+    { label: 'Emerging Contamination', href: '/emerging-contamination' },
+    { label: 'Vulnerability Assessment', href: '/gw-vulnerability' },
+    { label: 'River-Aquifer Exchange', href: '/river-aquifer' },
+    { label: 'Contact Us', href: '/contact' },
 ];
 
 export default function MainNav() {
@@ -43,7 +40,7 @@ export default function MainNav() {
     const [scrolled, setScrolled] = useState(false);
     const pathname = usePathname();
     const navRef = useRef<HTMLElement>(null);
-    const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+    const dropdownRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
 
     // Scroll listener
     useEffect(() => {
@@ -58,13 +55,60 @@ export default function MainNav() {
         setOpenDropdown(null);
     }, [pathname]);
 
+    // Click outside handler - closes dropdown when clicking outside
+    const handleClickOutside = useCallback((event: MouseEvent) => {
+        if (openDropdown) {
+            const dropdownElement = dropdownRefs.current[openDropdown];
+            if (dropdownElement && !dropdownElement.contains(event.target as Node)) {
+                setOpenDropdown(null);
+            }
+        }
+    }, [openDropdown]);
+
+    // Add/remove click outside listener
+    useEffect(() => {
+        if (openDropdown) {
+            // Small delay to prevent immediate close on the same click that opened it
+            const timeoutId = setTimeout(() => {
+                document.addEventListener('click', handleClickOutside);
+            }, 10);
+            return () => {
+                clearTimeout(timeoutId);
+                document.removeEventListener('click', handleClickOutside);
+            };
+        }
+    }, [openDropdown, handleClickOutside]);
+
+    // Toggle dropdown on click
+    const handleDropdownClick = (label: string, event: React.MouseEvent) => {
+        event.stopPropagation();
+        setOpenDropdown(prev => prev === label ? null : label);
+    };
+
+    // Handle mouse enter for hover-to-open behavior
     const handleMouseEnter = (label: string) => {
-        if (timeoutRef.current) clearTimeout(timeoutRef.current);
         setOpenDropdown(label);
     };
 
-    const handleMouseLeave = () => {
-        timeoutRef.current = setTimeout(() => setOpenDropdown(null), 150);
+    // Handle mouse leave - only close if moving completely outside the dropdown area
+    const handleMouseLeave = (event: React.MouseEvent, label: string) => {
+        const dropdownElement = dropdownRefs.current[label];
+        if (dropdownElement) {
+            const rect = dropdownElement.getBoundingClientRect();
+            const mouseX = event.clientX;
+            const mouseY = event.clientY;
+
+            // Check if mouse is moving outside the dropdown container bounds
+            const isOutside =
+                mouseX < rect.left ||
+                mouseX > rect.right ||
+                mouseY < rect.top ||
+                mouseY > rect.bottom + 10; // Add buffer for smooth transition
+
+            if (isOutside) {
+                setOpenDropdown(null);
+            }
+        }
     };
 
     const isActive = (href: string) => {
@@ -85,14 +129,16 @@ export default function MainNav() {
                         {navItems.map((item) => (
                             <div
                                 key={item.label}
+                                ref={(el) => { dropdownRefs.current[item.label] = el; }}
                                 className="relative"
                                 onMouseEnter={() => item.children && handleMouseEnter(item.label)}
-                                onMouseLeave={handleMouseLeave}
+                                onMouseLeave={(e) => item.children && handleMouseLeave(e, item.label)}
                             >
                                 {item.children ? (
                                     <button
+                                        onClick={(e) => handleDropdownClick(item.label, e)}
                                         className={`flex items-center gap-1.5 px-5 py-4 font-medium transition-all hover:bg-white/10 ${isActive(item.href) ? 'bg-white/15' : ''
-                                            }`}
+                                            } ${openDropdown === item.label ? 'bg-white/20' : ''}`}
                                         aria-expanded={openDropdown === item.label}
                                     >
                                         {item.label}
@@ -121,13 +167,12 @@ export default function MainNav() {
                                             exit={{ opacity: 0, y: -8 }}
                                             transition={{ duration: 0.15 }}
                                             className="absolute left-0 top-full w-56 bg-white rounded-b-xl shadow-2xl overflow-hidden z-50"
-                                            onMouseEnter={() => handleMouseEnter(item.label)}
-                                            onMouseLeave={handleMouseLeave}
                                         >
                                             {item.children.map((child) => (
                                                 <Link
                                                     key={child.href}
                                                     href={child.href}
+                                                    onClick={() => setOpenDropdown(null)}
                                                     className={`block px-5 py-3 text-gray-700 hover:bg-primary hover:text-white transition-colors border-l-3 border-transparent hover:border-accent ${isActive(child.href) ? 'bg-primary/10 text-primary font-medium' : ''
                                                         }`}
                                                 >

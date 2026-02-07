@@ -21,7 +21,7 @@ const partnerLogos = [
 ];
 
 const quickLinks = [
-    { label: 'About SLCR', href: '/about/slcr' },
+    { label: 'About GWM', href: '/about/overview' },
     { label: 'Projects', href: '/projects' },
     { label: 'Gallery', href: '/media' },
     { label: 'Contact Us', href: '/contact' },
@@ -29,8 +29,8 @@ const quickLinks = [
 
 // Important Links
 const importantLinks = [
-     { label: 'Government of India', href: 'https://www.india.gov.in/' },
-    
+    { label: 'Government of India', href: 'https://www.india.gov.in/' },
+
     { label: 'Ministry of Jal Shakti', href: 'https://jalshakti-dowr.gov.in/' },
     { label: 'NMCG', href: 'https://nmcg.nic.in/' },
     { label: 'Central Pollution Control Board', href: 'https://cpcb.nic.in/' },
@@ -41,7 +41,7 @@ const importantLinks = [
     { label: 'IMD', href: 'https://mausam.imd.gov.in/' },
     { label: 'IIT-BHU, Varanasi', href: 'https://www.iitbhu.ac.in/' },
     { label: 'Government of UP', href: 'https://up.gov.in/en' },
-   
+
     { label: 'Decision Support System', href: 'https://slcrdss.in/' },
 ];
 
@@ -65,7 +65,7 @@ export default function Footer() {
                 <div className="max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12">
                     {/* UPDATED GRID: Changed to lg:grid-cols-5 to give extra space for Important Links */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
-                        
+
                         {/* About - Standard Width */}
                         <div>
                             <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
