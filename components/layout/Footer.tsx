@@ -21,16 +21,15 @@ const partnerLogos = [
 ];
 
 const quickLinks = [
-    { label: 'About GWM', href: '/about/overview' },
-    { label: 'Projects', href: '/projects' },
-    { label: 'Gallery', href: '/media' },
-    { label: 'Contact Us', href: '/contact' },
+    { label: 'About HMVB', href: '/about' },
+    { label: 'Groundwater', href: '/groundwater/depth' },
+    { label: 'MAR Zones', href: '/mar/sites' },
+    { label: 'TEM Data', href: '/tem-data' },
 ];
 
 // Important Links
 const importantLinks = [
     { label: 'Government of India', href: 'https://www.india.gov.in/' },
-
     { label: 'Ministry of Jal Shakti', href: 'https://jalshakti-dowr.gov.in/' },
     { label: 'NMCG', href: 'https://nmcg.nic.in/' },
     { label: 'Central Pollution Control Board', href: 'https://cpcb.nic.in/' },
@@ -41,8 +40,7 @@ const importantLinks = [
     { label: 'IMD', href: 'https://mausam.imd.gov.in/' },
     { label: 'IIT-BHU, Varanasi', href: 'https://www.iitbhu.ac.in/' },
     { label: 'Government of UP', href: 'https://up.gov.in/en' },
-
-    { label: 'Decision Support System', href: 'https://slcrdss.in/' },
+    { label: 'SLCR', href: 'https://slcrvaranasi.com/' },
 ];
 
 export default function Footer() {
@@ -51,14 +49,14 @@ export default function Footer() {
     return (
         <footer>
             {/* Partners Section - Light Background */}
-            <div className="bg-gradient-to-b from-gray-50 to-gray-100 py-8 sm:py-12">
+            {/* <div className="bg-gradient-to-b from-gray-50 to-gray-100 py-8 sm:py-12">
                 <div className="max-w-7xl mx-auto px-3 sm:px-4">
                     <h3 className="text-center text-xl sm:text-2xl font-bold text-primary mb-6 sm:mb-8">
                         Our Partners & Associates
                     </h3>
                     <LogoLoop logos={partnerLogos} speed={30} />
                 </div>
-            </div>
+            </div> */}
 
             {/* Main Footer */}
             <div className="bg-gradient-to-b from-primary to-primary-dark text-white">
@@ -70,11 +68,10 @@ export default function Footer() {
                         <div>
                             <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
                                 <span className="w-8 h-0.5 bg-accent rounded-full" />
-                                About SLCR
+                                About GWM
                             </h4>
                             <p className="text-sm text-white/70 leading-relaxed mb-4">
-                                Smart Laboratory on Clean Rivers (SLCR) is a joint initiative between India
-                                and Denmark for sustainable river rejuvenation and water management.
+                                The Groundwater Monitoring & Analysis Portal (GWM) is a comprehensive platform designed to provide real-time monitoring, analysis, and sustainable management of groundwater resources.
                             </p>
                             <div className="flex gap-3 mt-4">
                                 <a href="https://www.facebook.com/people/Smart-Lab-On-Clean-Rivers/61577375996615/#" className="p-2 bg-white/10 rounded-lg hover:bg-accent transition-colors">
@@ -145,7 +142,7 @@ export default function Footer() {
                             <ul className="space-y-3 text-sm text-white/70">
                                 <li className="flex items-start gap-3">
                                     <MapPin size={18} className="shrink-0 mt-0.5 text-accent" />
-                                    <span>SLCR, Indian Institute of Technology (BHU), Varanasi - 221005, India</span>
+                                    <span>GWM -SLCR lab, Department of Civil Engineering, IIT (BHU), Varanasi - 221005, India</span>
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <Mail size={18} className="text-accent" />
@@ -170,9 +167,9 @@ export default function Footer() {
                 <div className="max-w-7xl mx-auto px-4 py-4">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-2 text-sm text-white/60">
                         <p>
-                            Copyright © {currentYear} <span className="text-white font-medium">SLCR</span> | All Rights Reserved
+                            Copyright © {currentYear} <span className="text-white font-medium">GWM</span> | All Rights Reserved
                         </p>
-                        <p>SLCR, Indian Institute of Technology, BHU, Varanasi</p>
+                        <p>Groundwater Management, IIT (BHU), Varanasi</p>
                     </div>
                 </div>
             </div>

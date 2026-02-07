@@ -24,7 +24,7 @@ import {
 
 // ===== SLIDER IMAGES =====
 const sliderImages = [
-  { src: '/home/acq.png', alt: 'Groundwater Monitoring Station' },
+  { src: '/home/acq1.png', alt: 'Groundwater Monitoring Station' },
   { src: '/home/p1.png', alt: 'Aquifer Visualization' },
   { src: '/home/p2.png', alt: 'Groundwater Monitoring Network' },
 ];
@@ -72,7 +72,7 @@ function HeroImageSlider() {
   return (
     <div className="relative group">
       <section
-        className="relative w-full h-[500px] sm:h-[600px] md:h-[750px] overflow-hidden bg-slate-900"
+        className="relative w-full h-[500px] sm:h-[600px] md:h-[850px] overflow-hidden bg-slate-900"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
@@ -104,40 +104,46 @@ function HeroImageSlider() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
                 {/* Hero Overlay Text */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-white px-6 max-w-5xl">
-                    <motion.h1
-                      initial={{ opacity: 0, y: 30 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.3 }}
-                      className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 drop-shadow-2xl"
-                    >
-                      Groundwater Monitoring
-                      <span className="block text-cyan-400 mt-2">& Analysis Portal</span>
-                    </motion.h1>
-                    <motion.p
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.5 }}
-                      className="text-lg sm:text-2xl md:text-3xl font-medium mb-10 drop-shadow-lg text-slate-100 max-w-4xl mx-auto"
-                    >
-                      Advanced real-time monitoring and scientific analysis for sustainable groundwater management.
-                    </motion.p>
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.9 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: 0.7 }}
-                    >
-                      <Link
-                        href="/about/overview"
-                        className="inline-flex items-center gap-3 px-10 py-5 bg-cyan-500 hover:bg-cyan-600 text-white font-bold rounded-full shadow-2xl transition-all hover:scale-105 text-lg"
-                      >
-                        Explore Overview
-                        <ArrowRight className="w-6 h-6" />
-                      </Link>
-                    </motion.div>
-                  </div>
-                </div>
+{/* 1. Change 'items-center justify-center' to 'items-center justify-start' */}
+<div className="absolute inset-0 flex items-center justify-start">
+  
+  {/* 2. Change 'text-center' to 'text-left', add 'ml-4 sm:ml-12 md:ml-20' for padding from the left edge */}
+  <div className="text-left text-white px-6 max-w-5xl ml-4 sm:ml-12 md:ml-20">
+    <motion.h1
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.3 }}
+      className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 drop-shadow-2xl"
+    >
+      Groundwater Monitoring
+      <span className="block text-cyan-400 mt-2">& Analysis Portal</span>
+    </motion.h1>
+    
+    <motion.p
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.5 }}
+      /* 3. Remove 'mx-auto' so the paragraph stays left-aligned */
+      className="text-lg sm:text-2xl md:text-3xl font-medium mb-10 drop-shadow-lg text-slate-100 max-w-4xl"
+    >
+      Advanced real-time monitoring and scientific analysis for sustainable groundwater management.
+    </motion.p>
+    
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ delay: 0.7 }}
+    >
+      <Link
+        href="/about/overview"
+        className="inline-flex items-center gap-3 px-10 py-5 bg-cyan-500 hover:bg-cyan-600 text-white font-bold rounded-full shadow-2xl transition-all hover:scale-105 text-lg"
+      >
+        Explore Overview
+        <ArrowRight className="w-6 h-6" />
+      </Link>
+    </motion.div>
+  </div>
+</div>
               </motion.div>
             </AnimatePresence>
           </div>

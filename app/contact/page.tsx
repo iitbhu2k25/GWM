@@ -59,7 +59,7 @@ export default function ContactPage() {
                 <div>
                   <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Our Office</p>
                   <p className="text-slate-900 font-semibold leading-relaxed">
-                    Groundwater Monitoring Portal,<br />
+                    GWM-SLCR lab,<br />
                     Department of Civil Engineering,<br />
                     IIT (BHU) Varanasi, Uttar Pradesh,<br />
                     India - 221005
